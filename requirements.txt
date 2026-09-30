@@ -1,1 +1,6 @@
 python 3.13.13
+
+nbdime 4.0.4:
+    pip install nbdime
+    nbdime config-git --enable
+    nbdiff-web #for merging
