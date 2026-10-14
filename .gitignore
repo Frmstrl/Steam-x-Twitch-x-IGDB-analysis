@@ -2,3 +2,4 @@
 .gitattributes
 data/
 *.md
+*.html

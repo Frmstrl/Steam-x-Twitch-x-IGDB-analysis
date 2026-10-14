@@ -7,3 +7,7 @@ nbdime-4.0.4:
     
 numpy-2.5.3 
 pandas-3.0.6
+rapidfuzz
+python-dotenv
+requests
+beautifulsoup4
