@@ -1,5 +1,11 @@
 .DS_Store
 .gitattributes
+.venv/
+__pycache__/
+.pytest_cache/
+
+# data is too big for git -> see README how to get it
 data/
-*.md
+
+autoreports/
 *.html

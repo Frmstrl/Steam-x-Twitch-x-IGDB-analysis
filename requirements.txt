@@ -1,13 +1,16 @@
-python-3.13.13
+# python 3.13.13
+# install:  pip install -r requirements.txt
 
-nbdime-4.0.4:
-    pip install nbdime
-    nbdime config-git --enable
-    nbdiff-web #for merging
-    
-numpy-2.5.3 
-pandas-3.0.6
-rapidfuzz
-python-dotenv
-requests
-beautifulsoup4
+pandas==2.3.3
+numpy==2.3.5
+rapidfuzz==3.14.6
+requests==2.34.2
+beautifulsoup4==4.15.0
+ipykernel==7.4.0
+matplotlib==3.10.0
+pytest==9.2.0
+
+# nbdime - to see and merge notebook changes in git
+nbdime==4.0.4
+#   after install run once:  nbdime config-git --enable
+#   for merging:             nbdiff-web
